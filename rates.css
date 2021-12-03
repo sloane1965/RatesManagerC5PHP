@@ -1,0 +1,32 @@
+#rm_table {background-color: #2d5f86; box-shadow: 0px 0px 15px -4px black;}
+#rm_table .row_container {}
+#rm_table .row_container td, #rm_table thead th {padding: 8px 12px;}
+
+#rm_table thead th {color: white;}
+
+tr.row_container:nth-child(odd) {
+	background-color: white;
+}
+tr.row_container:nth-child(even) {
+	background-color: #eee;
+}
+
+tr.row_container td p {
+	margin: 0;
+}
+
+#rate_type_choice_form {margin: 10px 0;}
+
+.button_container button.sib {
+	border: 0;
+	padding: 5px 10px;
+	margin: 3px 0;
+	
+	box-shadow: 1px 0px 3px -1px black;
+}
+
+.button_container .stop_edit_button {background-color: #d9534f;}
+.button_container .edit_table_button {background-color: #2d5f86; color: white;}
+button.edit_table_button.sib:hover {background-color: #003868;}
+
+.button_container .update_table_button {background-color: #5cb85c;}
